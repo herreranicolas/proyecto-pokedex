@@ -18,12 +18,6 @@ background-color: #9d93ff;
 .inputBusquedafondo{
 background-color:#d2b6ff;
 }
-body{
-  background-color: #8BC6EC;
-}
-h1,h5,p{
-  color:black
-}
 
 @media screen and (min-width:768px) and (max-width:991px){
   .alturadeImagenes{
