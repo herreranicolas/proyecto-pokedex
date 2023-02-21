@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+}
+
+.navColor {
+    background-color: #481074;
+}
+
+.carousel-inner img {
+    max-height: 110vh;
+    object-fit: scale-down;
+}
+
+.tipoPlanta {
+    background: #32d124;
+    text-decoration-color: rgb(245, 255, 252);
+}
+
+.tipoVeneno {
+    background: #b14fdf;
+    text-decoration-color: rgb(245, 255, 252);
+}
+
+.tipoFuego {
+    background: #e67b17;
+    text-decoration-color: rgb(245, 255, 252);
+}
+
+.tipoVolador {
+    background: #33849cad;
+    text-decoration-color: rgb(245, 255, 252);
+}
+
+.tipoAgua {
+    background: #1aadda;
+    text-decoration-color: rgb(245, 255, 252);
+}
+
+.tipoNormal {
+    background: #7c8c91;
+    text-decoration-color: rgb(245, 255, 252);
+}
