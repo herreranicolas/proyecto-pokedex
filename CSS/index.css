@@ -89,7 +89,14 @@ img {
     object-fit: cover;
     object-position: center;
     transition: .3s;
-    
+    filter: saturate(40%);
+}
+
+.imagen:hover {
+    filter: saturate(100%);
+    transition: 350ms;
+    width: 350px;
+    height: 550px;
 }
 
 @media all and (max-width:767px) {
@@ -99,7 +106,12 @@ img {
         object-position: center;
         transition: .3s;
     }
-
+    .imagen:hover {
+        filter: saturate(100%);
+        transition: 350ms;
+        width: 220px;
+        height: 350px;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
@@ -108,5 +120,11 @@ img {
         height: 445px;
         object-position: center;
         transition: .3s;
+    }
+    .imagen:hover {
+        filter: saturate(100%);
+        transition: 300ms;
+        width: 290px;
+        height: 485px;
     }
 }
