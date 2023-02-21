@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pagina de Pokedex - Detalle de Pokémon">
+  <meta name="keywords" content="pokemon, pokedex, detalle, caracteristicas, habilidades">
+  <meta name="author" content="Kokemones">
+  <title>Detalle de Pokémon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/detallePokemon.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="w-100">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="col-lg-1 col-md-2 col-4">
+            <a class="navbar-brand" href="../index.html"><img class="img-fluid" src="../img/logo-error/pokedex_logo.png"
+                alt="Logo del sitio" /></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="../pages/error404.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" role="button" aria-expanded="false"
+                  href="../pages/error404.html">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu fondoDropdown pe-4">
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Primera generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/pikachu.png.png"
+                        alt="pikachu imagen" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Segunda generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/chikorita-img.png"
+                        alt="imagen de chikorita" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Tercera generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/treecko-tercerag.png"
+                        alt="imagen de treecko" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Cuarta generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/luxray-cuartag.png"
+                        alt="imagen de luxray-cuartag" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Quinta generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/victini-quintag.png"
+                        alt="imagen de victini" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Sexta generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/meowstic-sextag.png"
+                        alt="imagen de meowstic" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Septima generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/rowlet-septimag.png"
+                        alt="imagen de rowlet" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3">
+                    <a class="dropdown-item" href="../pages/error404.html">Octava generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/centiskorch-octavag.png"
+                        alt="imagen de centiskorch" />
+                    </div>
+                  </li>
+                  <hr />
+                  <li class="fondoDropdown d-flex w-100 me-3 h-100">
+                    <a class="dropdown-item" href="../pages/error404.html">Novena generacion</a>
+                    <div>
+                      <img class="img-fluid alturadeImagenes" src="../img/complementos-nav/quaquaval-novenag.png"
+                        alt="imagen de quaquaval" />
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" action="./pages/error404.html">
+              <input class="form-control me-2 inputBusquedafondo" type="search" placeholder="Buscar" aria-label="Search"
+                required />
+              <button class="btn botonBusqueda" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container py-3 d-flex flex-column justify-content-center align-items-center text-white">
+      <h1 class="text-center fw-bold">Bulbasaur <span class="text-success">N.° 001</span></h1>
+      <article class="row row-cols-lg-2">
+        <figure class="order-lg-0 text-center">
+          <img src="../img/bulbasaur.png" alt="Bulbasaur" class="img-fluid">
+        </figure>
+        <aside class="order-lg-2">
+          <h3 class="fw-bold pb-1">Puntos de base</h3>
+          <div class="px-lg-4 pb-lg-4">
+            <div class="progress my-2" role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">PS</div>
+            </div>
+            <div class="progress my-2" role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Ataque</div>
+            </div>
+            <div class="progress my-2" role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%">Defensa</div>
+            </div>
+            <div class="progress my-2" role="progressbar" aria-label="Animated striped example" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%">Ataque Especial
+              </div>
+            </div>
+            <div class="progress my-2" role="progressbar" aria-label="Animated striped example" aria-valuenow="65"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%">Defensa Especial
+              </div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"> Velocidad</div>
+            </div>
+          </div>
+        </aside>
+        <aside class="pt-3 pt-lg-0 order-lg-1">
+          <h3 class="pb-1"> <span class="fw-bold">Versiones:</span>
+            <button class="btn p-1 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVersionAzul"
+              aria-expanded="true" aria-controls="collapseVersionAzul"><i
+                class="bi bi-record-circle-fill text-primary fs-4"></i>
+            </button>
+            <button class="btn p-1 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVersionRoja"
+              aria-expanded="true" aria-controls="collapseVersionRoja"><i
+                class="bi bi-record-circle-fill text-danger fs-4"></i>
+            </button>
+          </h3>
+          <div class="collapse mb-3 collapsed show" id="collapseVersionAzul">
+            <div class="card card-body bg-primary-subtle border border-primary border-1 text-primary">
+              Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.
+            </div>
+          </div>
+          <div class="collapse my-3 collapsed show" id="collapseVersionRoja">
+            <div class="card card-body bg-danger-subtle border border-1 border-danger text-danger">
+              Desde que nace, crece alimentándose de los nutrientes que contiene la semilla de su lomo.
+            </div>
+          </div>
+          <div class="card text-bg-primary bg-card text-stats mb-3 order-lg-3">
+            <div class="card-body row gy-3">
+              <div class="col-6">
+                <h5 class="card-title">Altura</h5>
+                <p class="card-text fw-bold">0,7 m</p>
+              </div>
+              <div class="col-6">
+                <h5 class="card-title">Categoría</h5>
+                <p class="card-text fw-bold">Semilla</p>
+              </div>
+              <div class="col-6">
+                <h5 class="card-title">Peso</h5>
+                <p class="card-text fw-bold">6,9 kg</p>
+              </div>
+              <div class="col-6">
+                <h5 class="card-title">Habilidad</h5>
+                <p class="card-text fw-bold">Espesura
+                  <!-- Boton modal de habilidad -->
+                  <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#modalHabilidadEspesura">
+                    <i class="bi bi-question-circle text-white"></i>
+                  </button>
+                </p>
+              </div>
+              <div class="col-6">
+                <h5 class="card-title">Sexo</h5>
+                <p class="card-text fw-bold"><i class="bi bi-gender-male fw-bold fs-5"></i><i
+                    class="bi bi-gender-female fs-5"></i></p>
+              </div>
+            </div>
+            <!-- Modal de Habilidad -->
+            <div class="modal fade" id="modalHabilidadEspesura" tabindex="-1" aria-labelledby="modalHabilidadEspesuraLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered ">
+                <div class="modal-content bg-card text-stats">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5 fw-bold" id="modalHabilidadEspesuraLabel">Espesura</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Potencia sus movimientos de tipo Planta cuando le quedan pocos PS.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <aside class="order-lg-3">
+          <div class="pb-3">
+            <h3 class="fw-bold pb-1">Tipo</h3>
+            <a href="../pages/error404.html" class="a-unstyled btn-planta  px-3 py-1 px-md-5 py-md-1">Planta</a>
+            <a href="../pages/error404.html" class="a-unstyled btn-veneno px-3 py-1 px-md-5 py-md-1">Veneno</a>
+          </div>
+    
+          <h3 class="fw-bold pb-1">Debilidad</h3>
+          <a href="../pages/error404.html" class="a-unstyled btn-fuego px-3 py-1 px-md-5 py-md-1">Fuego</a>
+          <a href="../pages/error404.html" class="a-unstyled btn-psiquico px-2 py-1 px-md-5 py-md-1">Psíquico</a>
+          <a href="../pages/error404.html" class="a-unstyled btn-volador px-3 py-1 px-md-5 py-md-1">Volador</a>
+          <a href="../pages/error404.html" class="a-unstyled btn-hielo my-2 px-3 py-1 px-md-5 py-md-1">Hielo</a>
+        </aside>
+      </article>
+    </section>
+    <section class="container py-3">
+      <h2 class="text-white fw-bold pb-1">Evoluciones</h2>
+      <div class="row row-cols-lg-3">
+        <div class="card bg-transparent border-0 px-md-5 px-lg-4">
+          <a href="detallePokemon.html" class="rounded-circle border border-5 border-success-subtle shadow">
+            <img src="../img/bulbasaur.png" alt="Bulbasaur" class="card-img-top p-4">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="card-title text-white">Bulbasaur <span class="text-success fw-bold">N.° 0001</span></h3>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-planta px-3 py-1 px-md-5 py-md-1 px-lg-4">Planta</a>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-veneno px-3 py-1 px-md-5 py-md-1 px-lg-4">Veneno</a>
+          </div>
+          <i class="bi bi-arrow-down-circle text-white display-1 text-center pb-3 pb-lg-0 d-lg-none"></i>
+        </div>
+        <div class="card bg-transparent border-0 px-md-5 px-lg-4">
+          <a href="../pages/error404.html" class="rounded-circle border border-5 border-success-subtle shadow">
+            <img src="../img/Ivysaur.png" alt="Ivysaur" class="card-img-top p-4">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="card-title text-white">Bulbasaur <span class="text-success fw-bold">N.° 0002</span></h3>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-planta  px-3 py-1 px-md-5 py-md-1 px-lg-4">Planta</a>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-veneno px-3 py-1 px-md-5 py-md-1 px-lg-4">Veneno</a>
+          </div>
+          <i class="bi bi-arrow-down-circle text-white display-1 text-center pb-3 pb-lg-0 d-lg-none"></i>
+        </div>
+        <div class="card bg-transparent border-0 px-md-5 px-lg-4">
+          <a href="../pages/error404.html" class="rounded-circle border border-5 border-success-subtle shadow">
+            <img src="../img/Venusaur.png" alt="Venusaur" class="card-img-top p-4">
+          </a>
+          <div class="card-body text-center">
+            <h3 class="card-title text-white">Bulbasaur <span class="text-success fw-bold">N.° 0003</span></h3>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-planta  px-3 py-1 px-md-5 py-md-1 px-lg-4">Planta</a>
+            <a href="../pages/error404.html"
+              class="card-link a-unstyled btn-veneno px-3 py-1 px-md-5 py-md-1 px-lg-4">Veneno</a>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
