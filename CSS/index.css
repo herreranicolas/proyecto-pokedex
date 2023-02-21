@@ -89,6 +89,7 @@ img {
     object-fit: cover;
     object-position: center;
     transition: .3s;
+    
 }
 
 @media all and (max-width:767px) {
