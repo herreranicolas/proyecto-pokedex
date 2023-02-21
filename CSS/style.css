@@ -1,8 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 nav{
   background: rgb(141,110,178);
   background: linear-gradient(90deg, rgba(141,110,178,1) 100%, rgba(246,0,0,1) 100%, rgba(241,0,134,1) 100%, rgba(255,172,172,1) 100%);
-  font-family: 'Press Start 2P', cursive;
 }
 .fondoDropdown{
   background-color: #9d93ff;
@@ -14,4 +19,8 @@ background-color: #9d93ff;
 background-color:#d2b6ff;
 }
 
-  
+@media screen and (min-width:768px) and (max-width:991px){
+  .alturadeImagenes{
+    height: 101px;
+    width: 115px;}
+  }
