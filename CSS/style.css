@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -23,4 +23,17 @@ background-color:#d2b6ff;
   .alturadeImagenes{
     height: 101px;
     width: 115px;}
+  }
+  .fondopageError{
+    background-color: #d2b6ff;
+  }
+  .tipografiaError{
+    font-family: 'Press Start 2P', cursive;
+  }
+  .botonAnimado{
+    cursor:pointer;
+  }
+  .btn-animated {
+    font-size: 1.5rem;
+  
   }
