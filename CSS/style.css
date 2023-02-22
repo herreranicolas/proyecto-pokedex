@@ -37,3 +37,17 @@ background-color:#d2b6ff;
     font-size: 1.5rem;
   
   }
+ ul{
+ list-style-type: none;
+}
+footer{
+  background: rgb(141,110,178);
+  background: linear-gradient(90deg, rgba(141,110,178,1) 100%, rgba(246,0,0,1) 100%, rgba(241,0,134,1) 100%, rgba(255,172,172,1) 100%);
+}
+.tamImgFooter{
+width: 180px;
+height: 50px;
+}
+a{
+  text-decoration: none;
+}
